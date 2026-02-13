@@ -1,0 +1,45 @@
+/* 全体の背景とレイアウト */
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f8ff; /* 薄い青 */
+}
+
+/* スタート画面 */
+.start-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.start-button {
+  padding: 60px 100px;
+  font-size: 8rem;
+  font-weight: bold;
+  color: white;
+  background-color: #0077ff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: transform 0.1s ease, background 0.1s ease;
+}
+
+.start-button:hover {
+  transform: scale(1.1);
+  background: #0055aa;
+}
+
+/* 文字を画面いっぱいに表示 */
+.fullscreen-text {
+  font-size: 30vw; /* ビューポート幅に応じた文字サイズ */
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
