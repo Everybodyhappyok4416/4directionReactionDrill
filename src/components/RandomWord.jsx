@@ -95,7 +95,7 @@ const RandomWord = ({ count, isBlackNormal, onFinish }) => {
       const isStay = currentWord === "Stay";
       const showTime = isStay
         ? 1000
-        : Math.floor(Math.random() * (1400 - 900 + 1)) + 900;
+        : Math.floor(Math.random() * (1600 - 800 + 1)) + 800;
 
       const timer = setTimeout(() => {
         const nextState = getNextState(false); // 2回目以降は「Stay」による揺さぶりを解禁
