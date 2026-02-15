@@ -18,7 +18,7 @@ const App = () => {
             className="start-button"
             onClick={() => setStage("countdown")}
           >
-            Start
+            4 reaction
           </button>
         </div>
       )}
