@@ -34,7 +34,7 @@
 
 .start-button:hover {
   transform: scale(1.05);
-  background: #0055aa;
+  background: green;
 }
 
 /* 文字表示（矢印や数字）のレスポンシブ調整 */
