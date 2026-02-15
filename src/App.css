@@ -24,7 +24,7 @@
   font-size: clamp(2rem, 10vw, 6rem); /* スマホで2rem〜PCで最大6rem */
   font-weight: bold;
   color: white;
-  background-color: #0077ff;
+  background-color: green;
   border: none;
   border-radius: 20px;
   cursor: pointer;
